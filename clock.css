@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+
+}
+body{
+    background-image: url(images.img/shiny-black-headphones.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 300px;
+    justify-content: center;
+    display: flex;
+}
+#main{
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    background:linear-gradient(to right, rgba(153, 50, 153, 0.493), rgb(26, 23, 23), rgb(105, 105, 77)  );
+    border-radius:20px;
+    border:none;
+    background: transparent;
+}
+.time{
+    color: white;
+    font-size: 5.0rem;
+    align-items: center;
+    font-weight: bold;
+}
+#date{
+    color: white;
+    font-size: larger;
+}
