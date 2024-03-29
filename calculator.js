@@ -14,4 +14,7 @@ function displayAnswer() {
     catch (error) {
         display.value = "Error";
     }
+    if (display.value === "Error") {
+        setTimeout(() => display.value = " ", 3000);
+    }
 }
