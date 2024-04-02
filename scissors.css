@@ -1,4 +1,5 @@
-body{
+/* Styling for body */
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin: 0%;
@@ -6,10 +7,15 @@ body{
     flex-direction: column;
     align-items: center;
 }
-h1{
+
+/* Styling for heading */
+h1 {
     font-size: 2.5rem;
+    color: #FFA500; /* Orange color for heading */
 }
-#choices button{
+
+/* Styling for buttons in #choices */
+#choices button {
     font-size: 4rem;
     border-radius: 50%;
     background-color: rgb(0, 132, 255);
@@ -17,33 +23,44 @@ h1{
     cursor: pointer;
     transition: all 0.5s ease;
 }
-#choices button:hover{
-    background-color:rgba(0, 132, 255, 0.675) ;
+
+/* Hover effect for buttons in #choices */
+#choices button:hover {
+    background-color: rgba(0, 132, 255, 0.675);
 }
-#playerDisplay, #computerDisplay{
-font-size: xx-large;
-}
-.text-dark{
-font-size: 4rem;
-margin: 10px;
-font-weight: bold;
-}
-#scoreDisplay {
+
+/* Styling for display areas */
+#playerDisplay, #computerDisplay {
     font-size: larger;
 }
 
+/* Styling for text with dark color */
+.text-dark {
+    font-size: 4rem;
+    margin: 10px;
+    font-weight: bold;
+}
+
+/* Styling for score display */
+.scoreDisplay {
+    font-size: larger;
+}
+
+/* Styling for player's score */
 #playerScore {
     color: limegreen;
 }
 
+/* Styling for computer's score */
 #computerScore {
     color: red;
 }
 
-/*classes to use the styling to change text color during result display*/
-.loose{
-    color: rgba(255, 0, 0, 0.884);
+/* Classes for styling to change text color during result display */
+.win {
+    color: rgb(29, 177, 29); /* Green color for win */
 }
-.win{
-    color:rgb(29, 177, 29);
+
+.loose {
+    color: rgba(255, 0, 0, 0.884); /* Red color for lose */
 }
