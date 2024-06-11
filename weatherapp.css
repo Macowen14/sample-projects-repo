@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  background: #f5f5f5;
+  box-shadow: 8px 10px 5px rgba(0, 0, 0, 0.15);
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-box input {
+  border: 0;
+  outline: 0;
+  border-radius: 28px;
+  padding: 10px;
+  margin: 10px;
+  background: white;
+}
+
+input[type="submit"].btn {
+  font-size: larger;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  width: max-content;
+  background-color: hsl(122, 39%, 50%);
+  color: white;
+  border: none;
+  outline: none;
+  font-size: small;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  margin: auto;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, hsl(210, 100%, 70%), hsl(40, 100%, 50%));
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  max-width: max-content;
+}
+
+.card-title {
+  margin-top: 0;
+  font-size: 45px;
+  color: black;
+}
+
+.card-text {
+  font-weight: bold;
+  color: black;
+}
+
+.temp-display {
+  font-size: 40px;
+}
+
+.humidity-display {
+  font-size: 30px;
+}
+
+.desc-display {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.weather-emoji {
+  font-size: 80px;
+}
+
+.error-display {
+  color: red;
+  font-size: 1.5rem;
+}
